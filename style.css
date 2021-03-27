@@ -1,0 +1,218 @@
+html, body, figure, img, div, p, h1, h2, h3, main, textarea, li, ul, a {
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1125px;
+    width: 100%;
+    background: #71828a;
+    margin: 0 auto;
+}
+
+/*corpo*/
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Cabeçalho*/
+header{
+    background: #881731;
+    padding-top: 55px;
+}
+}
+header .container{
+    border-style: ridge;
+    border-color: azure;
+}
+}
+header .centro{
+    padding-left: 35px;
+}
+header img{
+    max-width: 235px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: azure;
+}
+header .subcentro {
+    border-style: ridge;
+    margin: 44px;
+    padding: 10px;
+    border-color: azure;
+}
+header .subcentro h1{
+    padding-right: 10pc;
+    font-size: 2.5rem;
+}
+header .subcentro p{
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 4px;
+    padding-left: 28px;
+}
+header .subcentro a{
+    font-size: 20px;
+}
+header .linha{
+    display: flex;
+    padding: 30px;
+    border-style: ridge;
+    border-color: azure;
+}
+header .subcentro ul li a{
+    
+}
+header .text-white{
+    color:white;
+}
+header .text-white1{
+    color:white;
+}
+header .text-white2{
+    color:white;
+}
+header .text-black{
+    color:black;
+    padding-left: 5px;
+}
+header .text-black1{
+    color:black;
+    padding-left: 5px;
+}
+header .text-black2{
+    color:black;
+    padding-left: 5px;
+}
+header ul{
+
+}
+
+
+/*main*/
+main{
+    background: #881731;
+}
+
+main .container{
+    border-style: ridge;
+    border-color: azure;
+}  
+main .linha{
+    display: flex;
+    margin: 25px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.coluna{
+    flex-basis: 50%;
+}
+main .coluna-esquerda{
+    
+}
+main .linha .coluna-esquerda section{
+    border-style: ridge;
+    padding-bottom: 12pc;
+    margin: 25px;
+}
+main .coluna-esquerda h2{
+    margin-top: 20px;
+    padding-left: 15px;
+    font-size: 2rem;
+}
+main .coluna-esquerda p{
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+main .coluna-esquerda li{
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+main .coluna-direita{
+    padding-left: 70px;
+}
+main .coluna-direita h2{
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 2rem;
+}
+#baixo{
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+main .coluna-direita p{
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+main .coluna-direita li{
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+main .linha .coluna-direita section{
+    border-style: ridge;
+    padding-bottom: 77px;
+    margin: 25px;
+}
+
+/*footer*/
+footer{
+   background: darkslateblue; 
+}
+footer .container{
+    background: darkslateblue;
+    display: flex;
+    padding-bottom: 20px;
+}
+footer .info-contato{
+    padding-top: 20px;
+    padding-right: 7pc;
+    font-size: 1.1rem;
+}
+footer ul li{
+    padding-left: 55px;
+}
+footer .redes-sociais{
+    display: flex;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+footer .redes-sociais img{
+    background: darkslateblue;
+    width: 70px; 
+}
+footer .text-white{
+    color:white;
+}
+footer .text-white1{
+    color:white;
+}
+footer .text-white2{
+    color:white;
+}
+footer .text-black{
+    color:black;
+    padding-left: 5px;
+}
+footer .text-black1{
+    color:black;
+    padding-left: 5px;
+}
+footer .text-black2{
+    color:black;
+    padding-left: 5px;
+}
+    
+
+
+
+
+
