@@ -1,4 +1,4 @@
-html, body, figure, img, div, p, h1, h2, h3, main, textarea, li, ul, a {
+* {
 
     margin: 0;
     padding: 0;
@@ -25,69 +25,55 @@ header{
     background: #881731;
     padding-top: 55px;
 }
-}
+
 header .container{
-    border-style: ridge;
-    border-color: azure;
+    
 }
-}
-header .centro{
-    padding-left: 35px;
+header .caixa-principal{
+    margin: 2pc;
+    padding-left: 72px;
 }
 header img{
-    max-width: 235px;
     border-radius: 100%;
+    max-width: 230px;
     border-style: solid;
-    border-color: azure;
+    border-color: white;
 }
-header .subcentro {
-    border-style: ridge;
-    margin: 44px;
-    padding: 10px;
-    border-color: azure;
+header .sub-caixa {
+    border-style: solid;
+    padding: 10px 50px 10px 20px;
+    margin: 5pc;
+    border-color: white;
+    margin-left: 2pc;
 }
-header .subcentro h1{
-    padding-right: 10pc;
-    font-size: 2.5rem;
+header .sub-caixa h1{
+    font-size: 2.25rem;
 }
-header .subcentro p{
-    font-weight: bold;
-    font-size: 17px;
-    padding-bottom: 4px;
-    padding-left: 28px;
+header .sub-caixa p{
+    font-size: 1.35rem;
+    padding-bottom: 5px;
 }
-header .subcentro a{
-    font-size: 20px;
+header .sub-caixa li p{
+    font-size: 1.15rem;
+}
+header .sub-caixa a{
+    font-size: 1.15rem;
 }
 header .linha{
     display: flex;
-    padding: 30px;
-    border-style: ridge;
-    border-color: azure;
+    border-style: solid;
+    border-color: white;
+    border-bottom-style: none;
+    flex-wrap: wrap;
 }
-header .subcentro ul li a{
+header .sub-caixa ul li a{
     
 }
 header .text-white{
-    color:white;
-}
-header .text-white1{
-    color:white;
-}
-header .text-white2{
-    color:white;
+    color: white;
 }
 header .text-black{
     color:black;
-    padding-left: 5px;
-}
-header .text-black1{
-    color:black;
-    padding-left: 5px;
-}
-header .text-black2{
-    color:black;
-    padding-left: 5px;
 }
 header ul{
 
@@ -100,120 +86,127 @@ main{
 }
 
 main .container{
-    border-style: ridge;
-    border-color: azure;
+    
 }  
 main .linha{
+    border-style: solid;
+    border-top-style: none;
+    border-color: white;
     display: flex;
-    margin: 25px;
+    justify-content: center;
+    padding-bottom: 10pc;
+    padding-top: 15px;
     flex-wrap: wrap;
-    align-items: flex-start;
 }
 .coluna{
-    flex-basis: 50%;
+    flex-basis: 49%;
 }
 main .coluna-esquerda{
-    
+    padding-left: 6pc;
+    padding-right: 3pc;
 }
 main .linha .coluna-esquerda section{
-    border-style: ridge;
-    padding-bottom: 12pc;
-    margin: 25px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 30px;
+    padding-bottom: 109px;
 }
 main .coluna-esquerda h2{
-    margin-top: 20px;
-    padding-left: 15px;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 main .coluna-esquerda p{
-    margin-top: 10px;
-    padding-left: 15px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: justify;
 }
 main .coluna-esquerda li{
-    margin-top: 10px;
-    padding-left: 15px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: justify;
 }
 main .coluna-direita{
-    padding-left: 70px;
+    padding-left: 3pc;
+    padding-right: 6pc;
 }
-main .coluna-direita h2{
-    margin-top: 10px;
-    padding-left: 15px;
-    font-size: 2rem;
+#cima-direita{
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 30px;
+    padding-bottom: 21px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    line-height: 1.4;
 }
-#baixo{
-    margin-top: 10px;
-    padding-left: 15px;
-    font-size: 1.1rem;
+#cima-direita h2{
+font-size: 1.8rem;
 }
-main .coluna-direita p{
-    margin-top: 10px;
-    font-size: 1.1rem;
+#cima-direita p, strong{
+font-size: 1.2rem;
 }
-main .coluna-direita li{
-    margin-top: 10px;
-    padding-left: 15px;
-    font-size: 1.1rem;
+#cima-direita h3{
+font-size: 1.5rem;
 }
-main .linha .coluna-direita section{
-    border-style: ridge;
-    padding-bottom: 77px;
-    margin: 25px;
+#baixo-direita{
+    padding-bottom: 148px; 
+    border-style: solid;
+    border-color: white; 
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    line-height: 1.4;
+}
+#baixo-direita h2{
+    font-size: 1.8rem;
+}
+#baixo-direita p, strong{
+    font-size: 1.2rem;
+}
+#baixo-direita h3{
+    font-size: 1.5rem;
 }
 
 /*footer*/
 footer{
-   background: darkslateblue; 
+    background: darkslateblue;
 }
 footer .container{
-    background: darkslateblue;
     display: flex;
+    justify-content: space-between;
+    background: darkslateblue;
     padding-bottom: 20px;
+    font-size: 1.2rem;
 }
 footer .info-contato{
-    padding-top: 20px;
-    padding-right: 7pc;
-    font-size: 1.1rem;
+    margin: 20px;
+    padding-left: 88px;
 }
 footer ul li{
-    padding-left: 55px;
+    padding-right: 20px;
+    color: white;
 }
 footer .redes-sociais{
     display: flex;
-    padding-top: 10px;
+    margin: 20px;
+    padding-right: 92px;
     text-align: center;
-    font-size: 1.1rem;
+    flex-wrap: wrap;
 }
 footer .redes-sociais img{
-    background: darkslateblue;
-    width: 70px; 
+    max-width: 75px;
 }
 footer .text-white{
-    color:white;
-}
-footer .text-white1{
-    color:white;
-}
-footer .text-white2{
-    color:white;
+    color: white;
 }
 footer .text-black{
     color:black;
-    padding-left: 5px;
 }
-footer .text-black1{
-    color:black;
-    padding-left: 5px;
-}
-footer .text-black2{
-    color:black;
-    padding-left: 5px;
-}
-    
-
-
-
-
 
