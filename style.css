@@ -96,7 +96,7 @@ main .linha{
     justify-content: center;
     padding-bottom: 10pc;
     padding-top: 15px;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 .coluna{
     flex-basis: 49%;
