@@ -86,24 +86,24 @@ main{
 }
 
 main .container{
-    
+    border: solid;
+    border-top: none;
+    border-color: white;
 }  
 main .linha{
-    border-style: solid;
-    border-top-style: none;
-    border-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-bottom: 10pc;
     padding-top: 15px;
     flex-flow: row wrap;
+    max-width: 990px;
+    margin: 0 auto;
 }
 .coluna{
     flex-basis: 49%;
 }
 main .coluna-esquerda{
-    padding-left: 6pc;
-    padding-right: 3pc;
+    max-width: 400px;
 }
 main .linha .coluna-esquerda section{
     border-style: solid;
@@ -131,8 +131,7 @@ main .coluna-esquerda li{
     text-align: justify;
 }
 main .coluna-direita{
-    padding-left: 3pc;
-    padding-right: 6pc;
+   max-width: 400px;
 }
 #cima-direita{
     border-style: solid;
