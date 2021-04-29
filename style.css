@@ -1,0 +1,274 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1125px;
+    width: 100%;
+    background: #71828a;
+    margin: 0 auto;
+}
+
+/*corpo*/
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: darkslateblue;
+}
+
+/*Cabeçalho*/
+header{
+    background: #881731;
+    padding-top: 60px;
+}
+header .caixa-principal{
+    margin: 40px;
+}
+header img{
+    border-radius: 100%;
+    max-width: 230px;
+    border-style: solid;
+    border-color: white;
+}
+header .sub-caixa {
+    border-style: solid;
+    border-color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    margin: 40px;
+}
+header .sub-caixa h1{
+    font-size: 2.25rem;
+}
+header .sub-caixa p{
+    font-size: 1.35rem;
+}
+header .sub-caixa li p{
+    font-size: 1.15rem;
+}
+header .sub-caixa a{
+    font-size: 1.15rem;
+}
+.ajusteLinha{
+    border-style: solid;
+    border-color: white;
+    border-bottom-style: none;
+}
+header .linha{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+header .text-white{
+    color: white;
+}
+header .text-black{
+    color:black;
+}
+
+
+
+/*main*/
+main{
+    background: #881731;
+}
+
+main .container{
+    border-style: solid;
+    border-top-style: none;
+    border-color: white;
+}  
+main .linha{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+
+/*Coluna esquerda*/
+main .linha .coluna-esquerda section{
+    border-style: solid;
+    border-color: white; 
+    width: 400px;
+    height: 280px;
+    padding: 20px;
+    margin: 20px;
+}
+main .coluna-esquerda h2{
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+main .coluna-esquerda p, li{
+    font-size: 1.2rem;
+}
+
+/*Coluna direita*/
+main .linha .coluna-direita section{
+    border-style: solid;
+    border-color: white; 
+    width: 400px;
+    height: 280px;
+    padding: 20px;
+    margin: 20px;
+}
+main .coluna-direita h2{
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+main .coluna-direita p, li{
+    font-size: 1.2rem;
+}
+main .coluna-direita h3{
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+
+/*footer*/
+footer{
+    background: darkslateblue;
+}
+footer .container{
+    background: darkslateblue;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+footer .info-contato{
+    width: 405px;
+    padding: 20px;
+}
+footer ul li{
+    color: white;
+    padding: 4px;
+}
+footer .redes-sociais{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding: 20px;
+}
+footer .redes-sociais img{
+    max-width: 75px;
+}
+footer .text-white{
+    color: white;
+}
+footer .text-black{
+    color:black;
+}
+
+    
+
+/*@media*/
+
+@media only screen and (max-width: 1190px){
+
+    main .coluna-direita p, li{
+        font-size: 1.09em;
+    }
+    .container{
+        max-width: 900px;
+    }
+    main .linha .coluna-esquerda section{
+        width: 350px;
+    }
+    main .linha .coluna-direita section{
+        width: 350px;
+    }
+
+}
+
+
+@media only screen and (max-width: 815px){
+    header .linha{
+        justify-content: center;
+    }
+    main .linha .coluna-esquerda section{
+        width: 400px;
+    }
+    main .linha .coluna-direita section{
+        width: 400px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+    footer .container{
+        justify-content: center;
+    }
+    .container{
+        max-width: 600px;
+    }
+}
+
+
+@media only screen and (max-width: 740px){
+    .container{
+        max-width: 450px;
+    }
+}
+
+
+
+@media only screen and (max-width: 525px){
+    .container{
+        max-width: 350px;
+    }
+    header .sub-caixa h1 {
+        font-size: 1.4rem;
+    }
+    header .sub-caixa p {
+        font-size: 1rem;
+    }
+    main .linha .coluna-esquerda section{
+        width: 270px;
+    }
+    main .linha .coluna-direita section{
+        width: 270px;
+    }
+    .sub-caixa{
+        width: 270px;
+    }
+}
+
+
+
+@media only screen and (max-width: 425px){
+
+    footer .info-contato {
+        width: 305px;
+    }
+}
+
+
+@media only screen and (max-width: 325px){
+    .container {
+        max-width: 290px;
+    }
+
+}
+
+
+
+
+
