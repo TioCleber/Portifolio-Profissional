@@ -9,7 +9,6 @@
 
 .container{
     max-width: 1125px;
-    width: 100%;
     background: #71828a;
     margin: 0 auto;
 }
@@ -152,7 +151,7 @@ footer .container{
     padding: 20px;
 }
 footer .info-contato{
-    width: 405px;
+    max-width: 405px;
     padding: 20px;
 }
 footer ul li{
@@ -188,24 +187,24 @@ footer .text-black{
         max-width: 900px;
     }
     main .linha .coluna-esquerda section{
-        width: 350px;
+        max-width: 350px;
     }
     main .linha .coluna-direita section{
-        width: 350px;
+        max-width: 350px;
     }
 
 }
 
 
-@media only screen and (max-width: 815px){
+@media only screen and (max-width: 980px){
     header .linha{
         justify-content: center;
     }
     main .linha .coluna-esquerda section{
-        width: 400px;
+        max-width: 400px;
     }
     main .linha .coluna-direita section{
-        width: 400px;
+        max-width: 400px;
     }
 
 }
@@ -241,13 +240,13 @@ footer .text-black{
         font-size: 1rem;
     }
     main .linha .coluna-esquerda section{
-        width: 285px;
+        max-width: 285px;
     }
     main .linha .coluna-direita section{
-        width: 285px;
+        max-width: 285px;
     }
     header .sub-caixa {
-        width: 285px;
+        max-width: 285px;
         height: 215px;
     }
 }
@@ -257,7 +256,7 @@ footer .text-black{
 @media only screen and (max-width: 425px){
 
     footer .info-contato {
-        width: 305px;
+        max-width: 305px;
     }
     
 }
