@@ -241,13 +241,13 @@ footer .text-black{
         font-size: 1rem;
     }
     main .linha .coluna-esquerda section{
-        width: 275px;
+        width: 285px;
     }
     main .linha .coluna-direita section{
-        width: 275px;
+        width: 285px;
     }
     header .sub-caixa {
-        width: 275px;
+        width: 285px;
     }
 }
 
