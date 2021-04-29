@@ -247,7 +247,7 @@ footer .text-black{
         width: 270px;
     }
     .sub-caixa{
-        width: 270px;
+        width: 275px;
     }
 }
 
@@ -258,9 +258,7 @@ footer .text-black{
     footer .info-contato {
         width: 305px;
     }
-    .sub-caixa {
-        width: 250px;
-    }
+   
 }
 
 
@@ -268,9 +266,7 @@ footer .text-black{
     .container {
         max-width: 290px;
     }
-    .sub-caixa {
-        width: 250px;
-    }
+   
 
 }
 
