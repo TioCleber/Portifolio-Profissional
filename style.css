@@ -52,10 +52,10 @@ header .sub-caixa p{
     font-size: 1.35em;
 }
 header .sub-caixa li p{
-    font-size: 1.15rem;
+    font-size: 1.15em;
 }
 header .sub-caixa a{
-    font-size: 1.15rem;
+    font-size: 1.15em;
 }
 .ajusteLinha{
     border-style: solid;
@@ -245,10 +245,10 @@ footer .text-black{
         max-width: 350px;
     }
     header .sub-caixa h1 {
-        font-size: 1.4rem;
+        font-size: 1.4em;
     }
     header .sub-caixa p {
-        font-size: 1rem;
+        font-size: 1em;
     }
     main .linha .coluna-esquerda section{
         width: 275px;
