@@ -42,7 +42,7 @@ header .sub-caixa {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 40px;
+    padding: 30px;
     margin: 40px;
 }
 header .sub-caixa h1{
