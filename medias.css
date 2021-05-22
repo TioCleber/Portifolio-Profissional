@@ -75,6 +75,7 @@
 
     .linha .menor {
         width: 300px;
+        height: auto;
     }
 
     .linha .projetos img {
