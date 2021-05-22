@@ -1,0 +1,114 @@
+@media (max-width: 1024px){
+    .linha .maior{
+        height: auto;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 768px){
+    .linha .projetos img {
+        max-width: 300px;
+    }  
+}
+
+@media (max-width: 650px){
+    .menuCel{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+   
+    #menu {
+        flex-direction: column;
+    }
+
+    #navMenu {
+        justify-content: center;
+    }
+
+    .mundo {
+        width: 500px;
+        height: 500px;
+    }
+    #fechar {
+        right: 75px;
+    }
+}
+
+@media (max-width: 499px){
+    .mundo{
+        
+        border-radius: 0;
+    }
+
+    #fechar {
+        right: -7px;
+        top: -13px;
+    }
+}
+
+@media (max-width: 425px){
+    .linha .maior {
+        height: auto;
+        width: 320px;
+    }
+
+    .linha .menor {
+        width: 320px;
+    }
+
+    .linha .projetos img {
+        max-width: 278px;
+    }
+
+    .mundo {
+        width: 400px;
+    }
+
+
+}
+
+@media (max-width: 375px){
+    .linha .maior {
+        height: auto;
+        width: 300px;
+    }
+
+    .linha .menor {
+        width: 300px;
+    }
+
+    .linha .projetos img {
+        max-width: 258px;
+    }
+
+    .mundo {
+        width: 370px;
+    }
+
+    #fechar {
+        right: -11px;
+        top: -25px;
+    }
+}
+
+@media (max-width: 360px){
+    .linha .maior {
+        height: auto;
+        width: 270px;
+    }
+
+    .linha .menor {
+        width: 270px;
+    }
+
+    .linha .projetos img {
+        max-width: 228px;
+    }
+
+
+
+    .mundo {
+        width: 300px;
+    }
+}
+
