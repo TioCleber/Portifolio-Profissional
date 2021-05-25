@@ -164,6 +164,7 @@ body{
 
 .linha section li{
   max-width: 400px;
+  margin-bottom: 5px;
 }
 
 .linha section ul a{
@@ -178,7 +179,7 @@ body{
 
 .linha ul p{
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   font-size: 1.5rem;
 }
 
