@@ -155,7 +155,7 @@ body{
 }
 
 .linha .projetos img{
-  max-width: 400px;
+  max-width: 100%;
 }
 
 .linha section ul{
