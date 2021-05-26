@@ -1,3 +1,9 @@
+@media (max-width: 1630px){
+    .linha .maior{
+        max-width: 500px;
+    }
+}
+
 @media (max-width: 1050px){
     .linha .maior{
         height: auto;
