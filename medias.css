@@ -1,7 +1,14 @@
+@media (max-width: 1663px){
+    .menores{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
 @media (max-width: 1050px){
     .linha .maior{
         height: auto;
-        max-width: 500px;
+        max-width: 440px;
     }
 }
 
