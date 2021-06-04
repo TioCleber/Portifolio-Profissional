@@ -1,19 +1,16 @@
-let modal = document.getElementById('sobre');
-let meuMundo = document.getElementById('meuMundo');
-let fechar = document.getElementById('fechar');
+const modal = document.getElementById('sobre');
+const meuMundo = document.getElementById('meuMundo');
+const fechar = document.getElementById('fechar');
 
-function active(){
-    modal.addEventListener('click', function(){
-        meuMundo.style.display = "flex";
-    })
+function ative(){
+    meuMundo.style.display = "flex";
 }
 
-function desactive(){
-    fechar.addEventListener('click', function(){
-        meuMundo.style.display = "none";
-        alert('Estou disponivel para contato, para saberem mais de meu Perfil !!!');
-    })
+modal.addEventListener('click', ative);
+
+function desative(){
+    meuMundo.style.display = "none";
+    alert('Estou disponivel para contato, para saberem mais de meu Perfil !!!');
 }
 
-active();
-desactive();
+fechar.addEventListener('click', desative);
