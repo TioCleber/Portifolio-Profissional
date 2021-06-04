@@ -253,9 +253,9 @@ section h2 {
   border: 1px solid #fe4;
   box-shadow: 3px 1px 8px #983200;
   cursor: pointer;
-  position: absolute;
-  top: 35px;
-  right: 95px;
+  position: fixed;
+  top: 0;
+  right: 0;
   background: #bf9600;
   color: #4a2c04;
   font-weight: 700;
