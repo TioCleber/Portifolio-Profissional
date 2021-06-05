@@ -112,7 +112,6 @@ body{
 .linha .menor {
   color: white;
   max-width: 440px;
-  padding: 20px;
   height: 450px;
   box-shadow: 2px 0px 6px #2f2f2f;
   background: rgb(32 32 35 / 0%);
@@ -125,7 +124,6 @@ body{
 .linha .maior {
   color: white;
   max-width: 900px; 
-  padding: 20px;
   height: 450px;
   box-shadow: 2px 0px 6px #2f2f2f;
   background: rgb(32 32 35 / 0%);
@@ -170,7 +168,7 @@ body{
 }
 
 .linha section p{
-  padding: 5px;
+  padding: 5px 20px;
   font-size: 1.2rem;
 }
 
@@ -184,7 +182,7 @@ section h2 {
   text-align: center;
   padding: 20px;
   background: blueviolet;
-  border-radius: 3px;
+  border-radius: 3px 3px 0 0;
   margin-bottom: 20px;
 }
 
