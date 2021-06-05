@@ -48,17 +48,27 @@
     .linha .maior {
         height: auto;
         width: 320px;
+        box-shadow: none;
+        border-radius: 0;
+        border: none;
     }
 
     .linha .menor {
         width: 320px;
+        box-shadow: none;
+        border-radius: 0;
+        border: none;
+    }
+
+    .linha .projetos img {
+        max-width: 278px;
     }
 
     .mundo {
         width: 400px;
     }
 
-     #fechar{
+    #fechar{
         top: -12px;
         right: -7px;
     }
