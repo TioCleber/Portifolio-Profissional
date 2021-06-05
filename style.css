@@ -49,6 +49,10 @@ body{
   filter: invert(100%);
 }
 
+#navMenu a{
+  padding: 10px;
+}
+
 #navMenu {
   display: flex;
   align-items: center;
