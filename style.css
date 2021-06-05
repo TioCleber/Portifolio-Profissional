@@ -37,12 +37,6 @@ body{
 
 #menu a p:hover{
   color: rgb(69 6 142);
-  font-size: 1.4rem;
-}
-
-#menu #navMenu a img:hover{
-  max-width: 40px;
-  padding: 5px;
 }
 
 #menuPerfil{
@@ -52,7 +46,6 @@ body{
 
 #navMenu a img{
   max-width: 25px;
-  transition: 0.8s;
   filter: invert(100%);
 }
 
