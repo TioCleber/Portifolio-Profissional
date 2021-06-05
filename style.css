@@ -54,6 +54,7 @@ body{
   align-items: center;
   gap: 1.2rem;
   justify-content: flex-end;
+  margin: 10px;
 }
 
 #menu{
