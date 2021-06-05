@@ -3,6 +3,10 @@
         display: flex;
         justify-content: space-evenly;
     }
+    
+    .menor{
+        margin-top: 0;
+    }    
 }
 
 @media (max-width: 1050px){
