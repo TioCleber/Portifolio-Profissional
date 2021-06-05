@@ -32,7 +32,6 @@ body{
 
 #menu a p{
   transition: 0.5s;
-  padding: 5px;
 }
 
 #menu a p:hover{
