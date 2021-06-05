@@ -50,13 +50,13 @@ body{
 }
 
 #navMenu a{
-  padding: 10px;
+  padding: 5px;
 }
 
 #navMenu {
   display: flex;
   align-items: center;
-  gap: 1.2rem;
+  gap: 0.8rem;
   justify-content: flex-end;
   margin: 10px;
 }
