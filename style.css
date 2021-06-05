@@ -128,8 +128,7 @@ body{
   box-shadow: 2px 0px 6px #2f2f2f;
   background: rgb(32 32 35 / 0%);
   backdrop-filter: blur(100px);
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin: 10px;
   border-radius: 3px;
   border: 1px solid #2f2f2f;
 }
