@@ -104,5 +104,9 @@
         width: 300px;
         height: 300px;
     }
+    
+    .js-content .h1 {
+    font-size: 2rem !important; 
+}
 }
 
