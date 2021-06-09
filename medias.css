@@ -38,12 +38,6 @@
     }
 }
 
-@media (max-width: 499px){
-    .mundo{
-        border-radius: 0;
-    }
-}
-
 @media (max-width: 425px){
     .linha .maior {
         height: auto;
@@ -62,7 +56,7 @@
 
     .mundo {
         width: 400px;
-        height: 600px;
+        height: 400px;
     }
 
     #fechar{
@@ -72,6 +66,10 @@
     
     .js-content p {
     font-size: 1rem;
+    }
+    
+    .buttonJs {
+        grid-row: 4 !important;
     }
 }
 
@@ -88,6 +86,7 @@
 
     .mundo {
         width: 370px;
+        height: 370px;
     }
 }
 
@@ -103,6 +102,7 @@
 
     .mundo {
         width: 300px;
+        height: 300px;
     }
 }
 
