@@ -232,10 +232,9 @@ section h2 {
 }
 
 .mundoFlex{
-  display: flex;
-    flex-direction: column;
-    height: 300px;
-    justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 100px);
 }
 
 .mundoFlex p{
