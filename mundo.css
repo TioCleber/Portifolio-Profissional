@@ -1,0 +1,47 @@
+.button{
+    background: black;
+    border: 1px solid #2f2f2f;
+    box-shadow: 1px 1px 15px #2f2f2f;
+    color: blueviolet;
+    font-size: 1.5rem;
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttonJs{
+    margin-top: 20px;
+    grid-row: 5;
+}
+
+.button:hover{
+    background: blueviolet;
+    color: white;
+}
+
+.js-content{
+    grid-row: 3;
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+}
+
+.js-content .h1{
+    display: none;
+    font-size: 3rem;
+}
+
+.js-content p{
+    display: none;
+    font-size: 1.5rem;
+}
+
+.js-content .h1.ativo{
+    display: block;
+}
+
+.js-content p.ativo{
+    display: block;
+}
