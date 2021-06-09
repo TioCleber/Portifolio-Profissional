@@ -104,5 +104,9 @@
     .mundo {
         width: 300px;
     }
+    
+    .js-content {
+    grid-row: 2;
+    }
 }
 
