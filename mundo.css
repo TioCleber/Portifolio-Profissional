@@ -31,13 +31,13 @@
 .js-content .h1{
     display: none;
     font-size: 3rem;
-    animation: animação 0.5s forwards;
+    animation: animação 0.3s forwards;
 }
 
 .js-content p{
     display: none;
     font-size: 1.3rem;
-    animation: animação 0.5s forwards;
+    animation: animação 0.3s forwards;
 }
 
 @keyframes animação{
