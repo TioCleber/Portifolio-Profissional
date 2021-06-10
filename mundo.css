@@ -19,6 +19,7 @@
 .button:hover{
     background: blueviolet;
     color: white;
+    border-color: white;
 }
 
 .js-content{
