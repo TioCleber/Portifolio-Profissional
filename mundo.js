@@ -22,7 +22,7 @@ function nextText(){
     function contagem(){
         contador++;
         if(contador >= max){
-            contador = max - 1;
+            contador = max;
         }
         span.innerHTML = contador;
     }
