@@ -3,6 +3,7 @@ const back = document.querySelector('.js-back');
 const content = document.querySelectorAll('.js-content .h1, .js-content p');
 const max = content.length;
 let currentP = 0;
+let contador = 1;
 let span = document.querySelector('span');
 
 content[currentP].classList.add('ativo');
@@ -16,21 +17,37 @@ function nextText(){
     if(currentP >= max){
         currentP = max - 1;
     }
-    span.innerHTML = currentP;
     content[currentP].classList.add('ativo');
+    
+    function contagem(){
+        contador++;
+        if(contador >= max){
+            contador = max - 1;
+        }
+        span.innerHTML = contador;
+    }
+    contagem();
 }
 
 function backText(){
     content[currentP].classList.remove('ativo');
     
-    --currentP;
+    currentP--;
     
     if(currentP <= 0){
         currentP = 0;
     }
 
-    span.innerHTML = currentP;
     content[currentP].classList.add('ativo');
+    
+     function contagemRegressiva(){
+        contador--;
+        if(contador <= 1){
+            contador = 1;
+        }
+        span.innerHTML = contador;
+    }
+    contagemRegressiva();
 }
 
 next.addEventListener('click', nextText);
