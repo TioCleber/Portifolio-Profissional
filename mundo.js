@@ -4,9 +4,10 @@ const content = document.querySelectorAll('.js-content .h1, .js-content p');
 const max = content.length;
 let currentP = 0;
 let contador = 1;
-let span = document.querySelector('span');
+let span = document.querySelector('.min');
 const spanMax = document.querySelector('.max');
 
+span.innerHTML = contador;
 spanMax.innerHTML = max;
 content[currentP].classList.add('ativo');
 
