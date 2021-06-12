@@ -5,7 +5,9 @@ const max = content.length;
 let currentP = 0;
 let contador = 1;
 let span = document.querySelector('span');
+const spanMax = document.querySelector('.max');
 
+spanMax.innerHTML = max;
 content[currentP].classList.add('ativo');
 
 function nextText(){
