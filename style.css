@@ -10,8 +10,7 @@
 body{
   background: url(./assets/galaxia1.jpg) no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  background-position: top;
+  background-position: center;
 }
 
 /*Menu*/
