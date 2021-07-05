@@ -1,0 +1,17 @@
+.valido{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #d42000;
+  color: white;
+}
+
+.mensagem-valido a{
+  color: white;
+}
+
+h1{
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Mate SC', serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+a{
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 760px){
+    
+}
+
+
+@media (max-width: 425px){
+    h1{
+        font-size: 1.9rem;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+    
+    h3{
+        font-size: 1rem;
+    }
+
+    h4{
+        font-size: 0.7rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    a{
+        font-size: 1rem;
+    }
+}
+
+
+
+

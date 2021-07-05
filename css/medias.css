@@ -1,0 +1,254 @@
+@media (max-width: 1300px){
+    .grid{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .portfolio-content{
+        grid-column: 1;
+        justify-self: center;
+        margin-top: 1rem;
+    }
+
+    form{
+        grid-column: 1;
+        width: auto;
+    }
+
+    .contact-me{
+        grid-column: 1;
+    }
+
+    .info{
+        grid-column: 1;
+        grid-row: 3;
+        margin-bottom: 1rem;
+    }
+
+    #email{
+        margin: auto;
+    }
+}
+
+@media (max-width: 1065px){
+    .header .menu{
+        display: block;
+        height: 0;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    .header .menu li{
+        display: none;
+    }
+
+    .menu.ativo{
+        padding: 10px;
+        display: flex;
+        visibility: visible;
+        flex-direction: column;
+        position: absolute;
+        top: 79px;
+        height: auto;
+        width: 300px;
+        background: white;
+        border: 1px   solid #d42000;
+        transition: all 0.5s;
+    }
+
+    .menu.ativo i{
+        display: flex;
+        justify-content: center;
+    }
+
+    .header.ativado .menu.ativo a:hover{
+        color: #d42000;
+    }
+
+    .menu.ativo li{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu.ativo li + li{
+        margin: 1rem 0 0 0;
+    }
+
+    .header .menu-hamburguer{
+        grid-column: -1;
+        grid-row: 1;
+        align-self: center;
+    }
+
+    .header .menu-hamburguer button{
+        display: block;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .header .uil-bars{
+        font-size: 2rem;
+        color: white;
+    }
+
+    .img-about{
+        grid-column: 2;
+        grid-row: 2;
+        text-align: center;
+    }
+    
+    .img-about img{
+        width: 60%;
+    }
+
+    .about{
+        grid-column: 2 / span 2;
+    }
+
+    .grid-projetos-skills{
+        grid-template-columns: 1fr;
+    }
+
+    .card-projeto + .card-projeto{
+        margin-top: 1rem;
+    }
+}
+
+
+@media (max-width: 875px){
+    body{
+        grid-template-columns: 1fr;
+    }
+
+    header{
+        grid-template-columns: 1fr;
+    }
+
+    .menu.ativo{
+        top: 98px;
+    }
+
+    .logo{
+        grid-column: 1;
+        margin: 10px;
+    }
+
+    .grid-content{
+        grid-template-columns: 1fr;
+    }
+
+    .apresentacao{
+        grid-column: 1;
+        justify-self: center;
+        text-align: center;
+    }
+
+    .about{
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .img-about{
+        grid-column: 1;
+    }
+
+
+    .btn-cv{
+        grid-column: 1;
+    }
+
+    .redes-sociais{
+        grid-column: 1;
+        grid-row: 3;
+        justify-self: center;
+        display: flex;
+
+    }
+
+    .redes-sociais li + li{
+        margin: 0 0 0 1rem;
+    }
+
+    .portfolio-content{
+        grid-column: 1;
+        justify-self: center;
+    }
+
+    .content{
+        padding: 80px 0;
+    }
+
+    .skills-list{
+        width: auto;
+        border-radius: 0;
+    }
+
+}
+
+
+@media (max-width: 425px){
+    .menu-hamburguer{
+        display: none;
+    }
+    
+    .header{
+        bottom: 0;
+        background: #d42000;
+    }
+
+    .menu-apps, .fechar-menu.ativo{
+        grid-column: -1;
+        grid-row: 1;
+        align-self: center;
+        display: block;
+    }
+
+    .header .menu-apps .uil-apps, .fechar-menu .uil-multiply{
+        font-size: 1.2rem;
+        color: white;
+        margin-right: 1rem;
+    }
+
+    .header .menu-apps.desativo{
+        display: none;
+    }
+
+    .header .menu-apps button, .fechar-menu button{
+        background: transparent;
+        border: none;
+        display: block;
+    }
+
+    .menu-mob.ativo{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        height: 30vh;
+        background: white;
+        border-top: 1px solid #d42000;
+        border-radius: 3px 3px 0 0;
+        visibility: visible;
+    }
+    
+
+    .menu-mob.ativo li{
+        align-self: center;
+        justify-self: center;
+        display: block;
+        visibility: visible;
+    }
+
+    .menu-mob.ativo i{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-mob.ativo a{
+        color: #d42000;
+    }
+
+    .footer{
+        height: 300px;
+    }
+}
