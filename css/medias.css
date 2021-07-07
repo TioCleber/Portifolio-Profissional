@@ -287,6 +287,10 @@
     .footer {
         justify-content: center;
     }
+    
+    header {
+        width: 425px;
+    }
 }
 
 
@@ -310,6 +314,10 @@
     textarea {
         width: 375px;
     }
+        
+    header {
+        width: 375px;
+    }
 }
 
     @media (max-width: 320px){
@@ -330,6 +338,10 @@
     }
 
     textarea {
+        width: 320px;
+    }
+        
+    header {
         width: 320px;
     }
 }
