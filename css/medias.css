@@ -258,4 +258,33 @@
         background-size: initial;
         background-position: initial;
     }
+    
+    body {
+    grid-template-columns: 425px;
+}
+
+.grid-content {
+    grid-template-columns: 425px;
+}
+
+.grid {
+    grid-template-columns: 425px;
+}
+
+#nome, #email {
+    max-width: 200px;
+    margin: auto;
+}
+
+textarea {
+    width: 413px;
+}
+
+.submit {
+    margin: 1rem auto;
+}
+
+.footer {
+    justify-content: center;
+}
 }
