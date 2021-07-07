@@ -256,5 +256,6 @@
     body{
         background-attachment: initial;
         height: 100vh;
+        Width: 100%;
     }
 }
