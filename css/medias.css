@@ -252,10 +252,4 @@
     .footer{
         height: 300px;
     }
-
-    body{
-        background-attachment: initial;
-        height: 100vh;
-        width: 100%;
-    }
 }
