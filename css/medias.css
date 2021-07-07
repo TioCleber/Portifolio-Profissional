@@ -261,30 +261,53 @@
     
     body {
     grid-template-columns: 425px;
+    }
+
+    .grid-content {
+        grid-template-columns: 425px;
+    }
+
+    .grid {
+        grid-template-columns: 425px;
+    }
+
+    #nome, #email {
+        max-width: 200px;
+        margin: auto;
+    }
+
+    textarea {
+        width: 413px;
+    }
+
+    .submit {
+        margin: 1rem auto;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 375px{
+    body {
+    grid-template-columns: 375px;
 }
 
 .grid-content {
-    grid-template-columns: 425px;
+    grid-template-columns: 375px;
 }
 
 .grid {
-    grid-template-columns: 425px;
+    grid-template-columns: 375px;
 }
 
 #nome, #email {
-    max-width: 200px;
-    margin: auto;
+    max-width: 175px;
 }
 
 textarea {
-    width: 413px;
+    width: 375px;
 }
 
-.submit {
-    margin: 1rem auto;
-}
-
-.footer {
-    justify-content: center;
-}
-}
