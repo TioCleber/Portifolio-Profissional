@@ -290,24 +290,48 @@
 }
 
 
-@media (max-width: 375px{
-    body {
-    grid-template-columns: 375px;
+    @media (max-width: 375px{
+        body {
+        grid-template-columns: 375px;
+    }
+
+    .grid-content {
+        grid-template-columns: 375px;
+    }
+
+    .grid {
+        grid-template-columns: 375px;
+    }
+
+    #nome, #email {
+        max-width: 175px;
+    }
+
+    textarea {
+        width: 375px;
+    }
 }
 
-.grid-content {
-    grid-template-columns: 375px;
+        @media (max-width: 320px{
+        body {
+        grid-template-columns: 320px;
+    }
+
+    .grid-content {
+        grid-template-columns: 320px;
+    }
+
+    .grid {
+        grid-template-columns: 320px;
+    }
+
+    #nome, #email {
+        max-width: 155px;
+    }
+
+    textarea {
+        width: 320px;
+    }
 }
 
-.grid {
-    grid-template-columns: 375px;
-}
-
-#nome, #email {
-    max-width: 175px;
-}
-
-textarea {
-    width: 375px;
-}
 
