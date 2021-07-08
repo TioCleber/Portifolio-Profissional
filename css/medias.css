@@ -294,6 +294,9 @@
     
     .skills-list {
         width: 425px;
+    }
+    
+    .skills-list li{
         padding: 0px;
     }
 }
