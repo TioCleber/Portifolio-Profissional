@@ -272,16 +272,12 @@
     }
 
     #nome, #email {
-        max-width: 200px;
-        margin: auto;
+        max-width: 100%;
+        margin: 0px;
     }
 
     textarea {
-        width: 400px;
-    }
-
-    .submit {
-        margin: 1rem auto;
+        width: 100%;
     }
 
     .footer {
@@ -315,14 +311,6 @@
     .grid {
         grid-template-columns: 375px;
     }
-
-    #nome, #email {
-        max-width: 175px;
-    }
-
-    textarea {
-        width: 350px;
-    }
         
     header {
         width: 375px;
@@ -346,13 +334,6 @@
         grid-template-columns: 320px;
     }
 
-    #nome, #email {
-        max-width: 155px;
-    }
-
-    textarea {
-        width: 310px;
-    }
         
     header {
         width: 320px;
