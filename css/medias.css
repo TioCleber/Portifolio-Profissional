@@ -253,18 +253,6 @@
         background-position: initial;
     }
     
-    body {
-    grid-template-columns: 425px;
-    }
-
-    .grid-content {
-        grid-template-columns: 425px;
-    }
-
-    .grid {
-        grid-template-columns: 425px;
-    }
-    
     form{
         display: block;
         grid-template-columns: 1fr;
@@ -296,35 +284,6 @@
     
     .skills-list li + li {
         margin-left: 1rem;
-    }
-}
-
-
-    @media (max-width: 375px){
-        body {
-        grid-template-columns: 375px;
-    }
-
-    .grid-content {
-        grid-template-columns: 375px;
-    }
-
-    .grid {
-        grid-template-columns: 375px;
-    }
-}
-
-    @media (max-width: 320px){
-        body {
-        grid-template-columns: 320px;
-    }
-
-    .grid-content {
-        grid-template-columns: 320px;
-    }
-
-    .grid {
-        grid-template-columns: 320px;
     }
 }
 
