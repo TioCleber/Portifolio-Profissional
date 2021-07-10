@@ -289,10 +289,6 @@
         justify-content: center;
     }
     
-    header {
-        width: 425px;
-    }
-    
     .skills-list li{
         padding: 5px;
         font-size: 1rem;
@@ -316,10 +312,6 @@
     .grid {
         grid-template-columns: 375px;
     }
-        
-    header {
-        width: 375px;
-    }
 }
 
     @media (max-width: 320px){
@@ -333,11 +325,6 @@
 
     .grid {
         grid-template-columns: 320px;
-    }
-
-        
-    header {
-        width: 320px;
     }
 }
 
