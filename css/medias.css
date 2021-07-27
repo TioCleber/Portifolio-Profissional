@@ -110,10 +110,6 @@
     .grid-projetos-skills{
         grid-template-columns: 1fr;
     }
-
-    .card-projeto + .card-projeto{
-        margin-top: 1rem;
-    }
 }
 
 

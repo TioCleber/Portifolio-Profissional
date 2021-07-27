@@ -259,7 +259,7 @@ p + p{
 }
 
 
-/*PROJETOS*/
+/*GRID*/
 .grid{
     grid-column: 1 / -1;
     display: grid;
@@ -273,48 +273,34 @@ p + p{
     text-align: center;
 }
 
+
+/*PROJECTS*/
+.img-projeto img{
+    width: 100%;
+    display: block;
+}
+
+#projetos{
+   
+}
+
 .card-projeto{
-    justify-self: center;
-    max-width: 600px;
-    margin: 0 20px 0 20px;
-    padding: 10px;
-    border: 2px solid var(--color--principal);
-    border-radius: 1rem;
-    box-shadow: 3px 5px 10px;
+    background: rgba(0,0,0,0.3);
+    margin: 0 10px 0 10px;
 }
 
 .card-projeto h2{
     text-align: center;
-    padding: 10px;
+    margin: 10px 0;
 }
 
-.img-projeto{
-    text-align: center;
+.card-projeto p {
+    padding: 0 10px;
+    margin: 10px 0;
 }
 
-.img-projeto img{
-    max-width: 90%;
-    border: 2px solid var(--color--secundaria);
-    border-radius: 1rem;
-}
 
-.projeto-content{
-    padding: 10px;
-}
 
-.projeto-content p + p{
-    margin-top: 10px;
-}
-
-.projeto-content p::before{
-    content: '';
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: var(--color--secundaria);
-    display: inline-block;
-    margin: 0 5px 2px 0;
-}
 
 
 /*SKILLS*/
