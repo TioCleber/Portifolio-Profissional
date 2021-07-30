@@ -114,6 +114,10 @@
     .card-projeto{
         margin: 0;
     }
+
+    .card-projeto + .card-projeto{
+        margin-top: 10px;
+    }
 }
 
 
